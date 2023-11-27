@@ -1,0 +1,54 @@
+.color1 {
+  background-color: #00bffe;
+  grid-area: a;
+}
+.color2 {
+  background-color: #ff4500;
+  grid-area: b;
+}
+.color3 {
+  background-color: #32cd33;
+  grid-area: c;
+}
+.color4 {
+  background-color: #fed700;
+  grid-area: d;
+}
+.color5 {
+  background-color: #ff7f50;
+}
+.color6 {
+  background-color: #8a2be1;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 200px 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a a"
+    "b c d";
+}
+
+.header div {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px;
+  gap: 10px;
+  padding: 50px;
+  background-color: #8a2be1;
+}
+
+.footer div {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
